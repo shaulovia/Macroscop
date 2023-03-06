@@ -1,4 +1,5 @@
 #!/bin/bash
+#ONLY FOR TEST
 #Install Macroscop 4.0 in Astra Linux CE 2.12
 sudo apt update
 sudo apt install libllvm6.0 postgresql-client-common postgresql-common
