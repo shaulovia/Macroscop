@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install curl &&
+sudo apt-get install curl
 curl -s http://packages.macroscop.com/deb/macroscop.gpg.key | sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/macroscop.gpg --import &&
 sudo chown _apt /etc/apt/trusted.gpg.d/macroscop.gpg
 sudo wget -P /etc/apt/sources.list.d/ http://packages.macroscop.com/deb/macroscop.list
